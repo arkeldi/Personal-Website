@@ -1,0 +1,141 @@
+body {
+    font-family: Raleway, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #222c3c;
+    min-height: 100vh;
+    max-width: 120%;
+    margin: 0 auto;
+    padding: 4rem;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+header {
+    color: mintcream;
+    padding: 1rem 0;
+}
+.name{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.name1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 20%;
+    height: 10%;
+    padding: 0rem;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-color: #D8D4C3;
+    background-color: #93634a;
+    box-shadow: 0.625rem 0.625rem rgb(54, 54, 54);
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.info {
+    padding: 1rem;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-color: #D8D4C3;
+    background-color: #989da6;
+    box-shadow: 0.625rem 0.625rem rgb(54, 54, 54);
+    width: 80%;
+    margin-bottom: 2rem;
+}
+p {
+    font-size: .80rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.projectrepo {
+    background-color: #989da6;
+    color: black;
+    border: 2px solid #555555;
+    text-align: center;
+    display: inline-block;
+    font-family: Raleway, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    margin:0 auto;
+    display:block;
+}
+.projectrepo:hover {
+    background-color: #0a0a0a; 
+    color: white;
+    cursor: pointer;
+}
+#resume {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ICONS  INFO *//* ICONS  INFO *//* ICONS  INFO *//* ICONS  INFO *//* ICONS  INFO */
+.iconembl {
+    color: #d37556;
+    font-size: 60px;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: ease-out 0.6s;
+}
+.iconembl:hover {
+    color: #383838;
+}
+.listicons {
+    text-align: center;
+    height:20px;
+}
+.eachicon {
+    display: inline-block;
+    margin-right:10px;
+}
+/* PAGES INFO *//* /* PAGES INFO *//* /* PAGES INFO *//* /* PAGES INFO */ /* PAGES INFO *//* PAGES INFO */
+.directions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;  
+}
+.thing {
+    display: block;
+    list-style-type: none;
+    flex: 0 1 auto; 
+}
+.button {
+    font-family: Raleway, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #d37556;
+    background-color: #222c3c;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #383838;
+    transition: ease-out 0.6s;
+    outline: none;
+}
+.button:hover {
+    box-shadow: inset 490px 0 0 0 #383838;
+    cursor: pointer;
+    color: #B9B3B3;
+}
