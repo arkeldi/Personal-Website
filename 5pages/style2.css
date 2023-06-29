@@ -1,0 +1,80 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .name1 {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .name {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .info {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  .first {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .thing {
+    margin: 0 10px;
+  }
+  
+  .button {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .listicons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0;
+    padding: 0;
+  }
+  
+  .eachicon {
+    margin: 0 10px;
+    font-size: 36px;
+  }
+  
+  .iconembl {
+    color: #333333;
+  }
+  
